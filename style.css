@@ -1,0 +1,28 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background-color: black;
+    color: ghostwhite;
+}
+.h{
+    background-color: #191970;
+}
+.h p{
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+button{
+    background-color: #800000;
+    font-size: 25px;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 3;
+    text-shadow: 5px 5px 5px red;
+}
