@@ -1,5 +1,5 @@
 function start() {
-    y=ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/fAxx3mLm2/model.json',modelloaded);
+    y=ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/OHWb7lkHT/',modelloaded);
 }
 
 function modelloaded() {
@@ -24,19 +24,19 @@ function Answer(error,result) {
         b=document.getElementById('a2');
         c=document.getElementById('a3');
         d=document.getElementById('a4');
-        if (result[0].label=="Clap") {
+        if (result[0].label=="Class 1") {
             a.src="aliens-01.gif";
             b.src="aliens-02.png";
             c.src="aliens-03.png";
             d.src="aliens-04.png";
         }
-        else  if (result[0].label=="Bang") {
+        else  if (result[0].label=="Class 2") {
             a.src="aliens-01.png";
             b.src="aliens-02.gif";
             c.src="aliens-03.png";
             d.src="aliens-04.png";
         }
-        else  if (result[0].label=="Song") {
+        else  if (result[0].label=="Class 3") {
             a.src="aliens-01.png";
             b.src="aliens-02.png";
             c.src="aliens-03.gif";
